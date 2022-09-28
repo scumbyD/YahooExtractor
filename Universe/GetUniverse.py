@@ -9,5 +9,6 @@ class EquityData(object):
 
     @classmethod
     def get_df(cls, index):  # does this need to be cls??
+        #  read in as a dataframe as yfinance calls are returned as dataframes
         df = pd.read_csv(f'Universe/{index}.csv')  # need to update to os join and explain why
         return df
