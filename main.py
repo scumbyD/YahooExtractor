@@ -12,6 +12,8 @@ if __name__ == '__main__':
         ticker_history = ca(ticker=t).get_history()
         df_dic[t] = ticker_history
 
-    print('HERE')
+    #  Will need to add transformer class
+
+    #  Will need to add loader class
 
 
